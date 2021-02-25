@@ -1,11 +1,14 @@
 {
   "extends": "../../config/typescript/tsconfig.json",
   "compilerOptions": {
-    "outDir": "./build-test",
-    "rootDirs": ["./test"],
+    "outDir": "./project-3",
+    "rootDirs": ["./src"],
+     "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+     "esModuleInterop": true,
     "composite": true
   },
-  "include": ["./test/**/*.ts"],
+  "include": ["src/**/*", "package.json", "src/*"],
   "exclude": ["./test/**/hardhat.config.ts", "./node_modules", "./test/internal/hardhat-network/stack-traces/test-files"],
   "references": [
     {
