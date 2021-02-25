@@ -2,8 +2,8 @@
 /node_modules
 
 # Compilation output
-/build-test/
-/dist
+#/build-test/
+#/dist
 
 # Code coverage artifacts
 /coverage

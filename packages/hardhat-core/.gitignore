@@ -13,12 +13,12 @@
 
 # TSC prod output. This has to be in sync with the to directories in ./src, and with npm script clean
 
-/*.js
-/*.js.map
-/*.d.ts
-/*.d.ts.map
-/builtin-tasks
-/internal
+#/*.js
+#/*.js.map
+#/*.d.ts
+#/*.d.ts.map
+#/builtin-tasks
+#/internal
 /types
 /utils
 
